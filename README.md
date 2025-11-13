@@ -89,8 +89,8 @@ Store Name, Item_Code, Item Barcode, Description, Category, Department, Sub-Depa
 - ✅ No missing required columns
 - ✅ 0 validation errors
 
-**Sample use case:**
-*"Every morning at 6 AM, the data team uploads yesterday's sales extract from the POS system to refresh analytics."*
+**Use case:**
+*"The data team uploads sales extract from the POS system to refresh analytics."*
 
 ---
 
@@ -160,6 +160,9 @@ Store Name, Item_Code, Item Barcode, Description, Category, Department, Sub-Depa
 
 ### 5. **GET `/api/pricing-index`** - Competitive Pricing Report
 **What it does:** Compares a target supplier's average unit prices vs. competitors within the same section/sub-department per store.
+
+**Key metrics:**
+- **Price index %** = (Supplier Price / Competitor) × 100
 
 **Price Index interpretation:**
 - **100** = Market average (competitive)
