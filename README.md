@@ -59,6 +59,7 @@ For the docs, visit  http://127.0.0.1:8001/docs  to access.
 3. Tracing and Error handling to log error spans and causes
 4. Context handling: Reports generated should only be for the new data ingested
    - As well provision to merge/incorporate new and old data for reports
+5. Authenticaton and User Management for login/signup and permissions
 
 ##  🔧 Assumptions
 1. Anyone other than Bidco is collectively considered a competitor
